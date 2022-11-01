@@ -11,15 +11,18 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  /* background-color: rgb(17, 16, 16); */
+  background-size: cover;
+  
 }
 
 a {
-  color:gray;
+  color:black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color:black;
   text-decoration: none;
 }
 
@@ -42,7 +45,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background:whitesmoke;
+  background:black;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -101,7 +104,7 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #fff;
+  color:black;
   text-decoration: none;
 }
 
@@ -122,7 +125,7 @@ h6 {
 
 #header .profile .social-links a:hover {
   background:green;
-  color: black;
+  color:black;
   text-decoration: none;
 }
 
@@ -200,13 +203,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(/IMG-20220317-WA0009.jpg) top center;
+  background: url(/125429728_1169028426828227_4378102649525889962_n.jpg) top center;
   background-size: cover;
 }
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -300,23 +302,30 @@ h6 {
 .about .content h3 {
   font-weight: 700;
   font-size: 46px;
-  color: grey;
+  color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+  color:black;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  
 }
 
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  color: black;
 }
 
 .about .content ul strong {
   margin-right: 10px;
+  color: black;
 }
 
 .about .content ul i {
@@ -376,7 +385,7 @@ h6 {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: gray;
+  color:black;
 }
 
 .resume .resume-item {
@@ -384,6 +393,7 @@ h6 {
   margin-top: -2px;
   border-left: 2px solid black;
   position: relative;
+  color: black;
 }
 
 .resume .resume-item h4 {
@@ -392,13 +402,13 @@ h6 {
   font-weight: 600;
   text-transform: uppercase;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: grey;
+  color:black;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 18px;
-  background: #bde4e2;
+  background: #a3e4e0;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -425,8 +435,8 @@ h6 {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 3px solid black;
+  background:black;
+  border: 4px solid black;
 }
 
 /*--------------------------------------------------------------
@@ -438,7 +448,7 @@ h6 {
 
 .contact .info {
   padding: 30px;
-  background: rgb(187, 184, 184);
+  background:white;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -449,7 +459,7 @@ h6 {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -462,7 +472,7 @@ h6 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: black;
 }
 
 .contact .info p {
@@ -583,7 +593,7 @@ h6 {
   background:greenyellow;
   border: 0;
   padding: 10px 24px;
-  color:whitesmoke;
+  color:white;
   transition: 0.8s;
 
 }
