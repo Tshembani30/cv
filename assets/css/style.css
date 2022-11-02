@@ -729,14 +729,15 @@ p{
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
+  color: black;
+  font-size: 15px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 #footer .copyright {
@@ -747,7 +748,7 @@ p{
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #eaebf0;
+  color:black;
 }
 
 @media (max-width: 1199px) {
@@ -756,4 +757,8 @@ p{
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+a{
+  color: black;
 }
