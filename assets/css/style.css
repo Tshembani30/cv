@@ -474,14 +474,20 @@ iframe{
   margin-top: 8%;
   width: 80%;
   height:80% ;
+  transition: 4s;
+  cursor: pointer;
 }
 
 
 .fliedNum{
   background-color:rgba(255, 255, 255, 0.699);
   height: 100%;
-  width: 100%;
+  width: 93%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.0s);
+  border: solid;
+  transition: 10s;
+  cursor: pointer;
  
   
 }
@@ -496,6 +502,8 @@ h4{
 .img-fluid{
   width: 55%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 3s;
+  cursor: pointer;
   
 
 }
@@ -504,6 +512,8 @@ h4{
   width: 50%;
   height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 3s;
+  cursor: pointer;
 }
 
 h6{
@@ -512,6 +522,13 @@ h6{
   color: #050d18;
   font-size: 18px;
 }
+
+img:hover {
+  transform: scale(0.59);
+  border: solid;
+  transition: 4s;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -554,5 +571,6 @@ span{
 .br{
   color: black;
 }
+
 
 
