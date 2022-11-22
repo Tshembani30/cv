@@ -57,6 +57,7 @@ h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+  
 }
 
 .back-to-top i {
@@ -517,8 +518,8 @@ h4{
   transform: scale(1.1);
   border: solid;
   transition: 4s;
-  margin-left:670px;
-  margin-top: -350px;
+  margin-left:690px;
+  margin-top: -270px;
 }
 
 h6{
