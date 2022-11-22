@@ -57,6 +57,7 @@ h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+
   
 }
 
@@ -213,8 +214,10 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 50vh;
-  
+  height: 60vh;
+  /* 
+   */
+  background-size: contain;
   
 }
 
@@ -303,6 +306,7 @@ h6 {
   background:rgb(184, 248, 247);
   bottom: 0;
   left: 0;
+  background-image: url(/Img/20221122_080106.jpg);
 }
 
 .section-title p {
